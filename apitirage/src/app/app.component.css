@@ -1,0 +1,59 @@
+nav{
+    position : fixed ;
+    width : 100% ;
+    height : 10% ;
+    left : 0px ;
+    top : 0px ;
+    background : #587CFD ;
+}
+.menu{
+position : fixed ;
+width : 20% ;
+height : 60% ;
+left : 0px ;
+top : 20% ;
+background : #5B7CFD ;
+border-radius : 0px 30px 30px 0px ;
+}
+ /* Les items de mon menu : ITEM 1 */
+.menu .item_1{
+   
+position : absolute ;
+width : 100% ;
+height : 15% ;
+left : 0px ;
+top : 20% ;
+background : #FFFFFF;
+box-shadow : 0px 4px 4px #FF6B00 ;
+border-radius : 0px ;
+}
+/*  Les items de mon menu : ITEM 2 */
+.menu .item_2{
+    position : absolute ;
+    width : 100% ;
+    height : 15% ;
+    left : 0px ;
+    top : 45% ;
+    background : #FFFFFF;
+    box-shadow : 0px 4px 4px #FF6B00 ;
+    border-radius : 0px ;
+}
+/*  Les items de mon menu : ITEM 3 */
+.menu .item_3{
+    position : absolute ;
+    width : 100% ;
+    height : 15% ;
+    left : 0px ;
+    top : 70% ;
+    background : #FFFFFF;
+    box-shadow : 0px 4px 4px #FF6B00 ;
+    border-radius : 0px ;
+}
+.menu h2{
+  margin: 10% ; 
+  font-family: 'poppins'; color:#5B7CFD ;
+}
+.menu h2 svg{
+    margin-right: 10%;
+  }
+  

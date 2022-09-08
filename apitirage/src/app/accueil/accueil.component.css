@@ -1,0 +1,17 @@
+.section-accueil{
+    position : fixed ; color: #FFF;
+    width : 60% ;
+    height : 10% ;
+    left : 30% ;
+    top : 20% ;
+    background : #587CFD ;
+}
+.section-accueil h1{
+   
+font-family : ' Poppins ' ;
+font-style : normal ;
+font-weight : bold ;
+font-size : 100% ;
+line-height : 82px ; 
+text-decoration: underline;
+}
