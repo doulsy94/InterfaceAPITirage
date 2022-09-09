@@ -1,17 +1,89 @@
-.section-accueil{
-    position : fixed ; color: #FFF;
+section{
+    position : absolute ;
     width : 60% ;
-    height : 10% ;
+    height : 500px ;
+    left : 30%;
+    top : 20% ;
+}
+
+.section-accueil{ color: #FFF;
+    width : 100% ;border-radius: 10px;
+    height : 9% ;
     left : 30% ;
     top : 20% ;
     background : #587CFD ;
 }
 .section-accueil h1{
-   
-font-family : ' Poppins ' ;
-font-style : normal ;
-font-weight : bold ;
-font-size : 100% ;
-line-height : 82px ; 
-text-decoration: underline;
+
+margin-left: 40%; margin-bottom: 30%;font-size: 100%;
 }
+
+/*ZONE DE RECHERCHE*/
+.section-listeT input{
+    margin-left: 25%; border-radius : 15px ;
+    }
+
+.mes_blocks{
+    margin: 2% ; width: 100%;padding: 0px;
+}
+.block1{
+width: 22%;
+text-align: center;
+color: #FF6B00;
+background : #FFFFFF ;
+box-shadow : 0px 4px 4px rgba ( 0 , 0 , 0 , 0.25 ) ;
+border-radius : 15px ;
+}
+
+.block3{
+    align-content: center;
+    width: 25%; margin-left: 50%;
+    text-align: center;
+    color: #FF6B00;
+    background : #FFFFFF ;
+    box-shadow : 0px 4px 4px rgba ( 0 , 0 , 0 , 0.25 ) ;
+    border-radius : 15px ;
+}
+.section-listeT{
+     color: #FFF;
+    width : 100% ;
+    height : 9% ;
+    left : 30% ;
+    top : 60% ;
+    background : #587CFD ;
+    border-radius: 10px;
+}
+.section-accueil .recherche{
+    background-color: red;
+    width: 8%; float: right;
+    margin-top: 100%;
+}
+.laListe{
+    width: 100%; height: 60%;
+    background-color: #FFF;
+    border-radius: 10px;top: 60% ;
+    
+}
+/*Mes listes*/
+.card{
+    margin: 10px;align-items: center;
+    padding: 0px; background-color: #587CFD;
+    align-content: center; font-size: 85%;
+}
+.card .libelle{
+   
+    width : 151px ;
+    height : 60px ;
+    left : 534px ;
+    top : 872px ;
+    font-family : 'Poppins ' ;
+    font-style : normal ;
+    font-weight : 600 ;
+    font-size : 40px ;
+    color : #FFFFFF ;
+}
+.card button{
+    background-color: #FFF; color: #FF6B00;
+    font-weight: bold;
+}
+
