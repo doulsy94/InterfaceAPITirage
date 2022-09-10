@@ -4,5 +4,5 @@ export class Postulant {
     nom_postulant: string | undefined;
     numero_postulant: string| undefined;
     prenom_postulant: string| undefined;
-    listepostulant_id_liste_postulant: number| undefined;
+    listepostulant_id_liste_postulant: number = 0;
 }
